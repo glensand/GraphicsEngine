@@ -47,9 +47,7 @@ void MaterialUnlitSimple::SetMaterial(const Object * pObject)
 		SetVertexShaderVector4("constColor", Vector4(1, 1, 1, 1));
 		
 		auto time = Time::GetTime();
-		//time = 
-		//std::time_t time = static_cast<float>(std::chrono::system_clock::to_time_t(rTime));
-		std::cout << time << std::endl;
+	
 		SetVertexShaderVector4("time", Vector4(std::sin(time), 0, 0, 0));
 		SetVertexShaderEnd();
 

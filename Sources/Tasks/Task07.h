@@ -18,7 +18,7 @@
 * @brief Shows how to load mesh from obj-file.
 * Key code is situated in the class MeshObjFile.
 */
-class	: public Task
+class	Task07: public Task
 {
 public:
 	virtual ~Task07() { }
@@ -27,6 +27,16 @@ public:
 	{
 		Scene & scene = Application::Instance().GetScene();
 	
+
+		// FPS counter
+		{
+			Object* pObject = new Object();
+			pObject->m_pTransform = new Transform();
+			pObject->AddComponent(new FpsCounter());
+
+			scene.AddObject(pObject);
+		}
+
 		// Camera
 		{
 			Object * pCameraObj = new Object();

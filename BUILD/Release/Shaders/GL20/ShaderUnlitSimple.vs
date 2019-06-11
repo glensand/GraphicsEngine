@@ -21,8 +21,8 @@ void main()
 	//gl_Position = matrixWorldViewProjT * vec4(position, 1.0);	// OpenGL
 	
 	
-	float len = 1 - length(position);
-	vec3 pos = position/(1 - len*abs(time.x));
+	float len = 1.0 - length(position);
+	vec3 pos = position/(1.0 - len*abs(time.x));
 		
 	gl_Position = vec4(pos, 1.0) * matrixWorldViewProjT;	// DirectX
 	gl_FrontColor = color * constColor;

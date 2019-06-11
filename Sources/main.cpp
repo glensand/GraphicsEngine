@@ -17,7 +17,7 @@ int main(int argc, char ** argv)
 {
 	// Remember argc, argv
 	{
-		Application & app = Application::Instance();.
+		Application & app = Application::Instance();
 		app.argc = argc;
 		app.argv = argv;
 	}
@@ -30,8 +30,8 @@ int main(int argc, char ** argv)
     //Task * pTask = new Task05_02();
     //Task * pTask = new Task05_03();
     //Task * pTask = new Task06();
-	Task * pTask = new Task07();
-	//Task * pTask = new Task08();	
+	//Task * pTask = new Task07();
+	Task * pTask = new Task08();	
 	{
 		GraphicsEngine & engine = GraphicsEngine::Instance();
 
