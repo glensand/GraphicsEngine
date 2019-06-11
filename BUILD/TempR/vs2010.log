@@ -1,0 +1,48 @@
+﻿  main.cpp
+c:\graphicsengine\sources\tasks\cameracontroller.h(34): warning C4244: '=': conversion from 'const double' to 'float', possible loss of data
+c:\graphicsengine\sources\tasks\cameracontroller.h(35): warning C4244: '=': conversion from 'const double' to 'float', possible loss of data
+c:\graphicsengine\sources\tasks\cameracontroller.h(73): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+c:\graphicsengine\sources\tasks\cameracontroller.h(74): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+c:\graphicsengine\sources\tasks\cameracontroller.h(77): warning C4305: 'initializing': truncation from 'double' to 'float'
+c:\graphicsengine\sources\tasks\task04.h(106): warning C4305: 'argument': truncation from 'double' to 'float'
+  Generating code
+  158 of 1318 functions (12.0%) were compiled, the rest were copied from previous compilation.
+    5 functions were new in current compilation
+    61 functions had inline decision re-evaluated but remain unchanged
+  Finished generating code
+  vs2010.vcxproj -> C:\GraphicsEngine\vs2010\..\BUILD\Release\GraphicsEngine.exe
+  ..\SDKs\OpenGL\dll\freeglut.dll
+  ..\SDKs\OpenGL\dll\FreeImage.dll
+  ..\SDKs\OpenGL\dll\glew32.dll
+  3 File(s) copied
+  ..\Sources\GraphicsEngine\Shaders\DX11\ShaderDiffuse.fx
+  ..\Sources\GraphicsEngine\Shaders\DX11\ShaderSand.fx
+  ..\Sources\GraphicsEngine\Shaders\DX11\ShaderUnlit.fx
+  ..\Sources\GraphicsEngine\Shaders\DX11\ShaderUnlitSimple.fx
+  ..\Sources\GraphicsEngine\Shaders\DX9\ShaderDiffuse.ps
+  ..\Sources\GraphicsEngine\Shaders\DX9\ShaderDiffuse.vs
+  ..\Sources\GraphicsEngine\Shaders\DX9\ShaderSand.ps
+  ..\Sources\GraphicsEngine\Shaders\DX9\ShaderSand.vs
+  ..\Sources\GraphicsEngine\Shaders\DX9\ShaderUnlit.ps
+  ..\Sources\GraphicsEngine\Shaders\DX9\ShaderUnlit.vs
+  ..\Sources\GraphicsEngine\Shaders\DX9\ShaderUnlitSimple.ps
+  ..\Sources\GraphicsEngine\Shaders\DX9\ShaderUnlitSimple.vs
+  ..\Sources\GraphicsEngine\Shaders\GL20\1.txt
+  ..\Sources\GraphicsEngine\Shaders\GL20\cylinder.1
+  ..\Sources\GraphicsEngine\Shaders\GL20\cylinder.vs
+  ..\Sources\GraphicsEngine\Shaders\GL20\cylinderRotation.vs
+  ..\Sources\GraphicsEngine\Shaders\GL20\road.fs
+  ..\Sources\GraphicsEngine\Shaders\GL20\road.vs
+  ..\Sources\GraphicsEngine\Shaders\GL20\ShaderDiffuse.fs
+  ..\Sources\GraphicsEngine\Shaders\GL20\ShaderDiffuse.vs
+  ..\Sources\GraphicsEngine\Shaders\GL20\ShaderEarth.fs
+  ..\Sources\GraphicsEngine\Shaders\GL20\ShaderEarth2.fs
+  ..\Sources\GraphicsEngine\Shaders\GL20\ShaderEarth2.vs
+  ..\Sources\GraphicsEngine\Shaders\GL20\ShaderSand.fs
+  ..\Sources\GraphicsEngine\Shaders\GL20\ShaderSand.vs
+  ..\Sources\GraphicsEngine\Shaders\GL20\ShaderUnlit.fs
+  ..\Sources\GraphicsEngine\Shaders\GL20\ShaderUnlit.vs
+  ..\Sources\GraphicsEngine\Shaders\GL20\ShaderUnlitSimple.fs
+  ..\Sources\GraphicsEngine\Shaders\GL20\ShaderUnlitSimple.vs
+  ..\Sources\GraphicsEngine\Shaders\vk\vk.h
+  30 File(s) copied
